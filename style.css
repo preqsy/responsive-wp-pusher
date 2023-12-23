@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    max-width: 100vw;
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F8FA;
+}
+
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    margin-top: 28px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+hr{
+    height: 2px;
+    color: #E0E6EA;
+}
+#second{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 476px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    letter-spacing: -0.01px;
+    cursor: pointer;
+}
+.exp{
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #646E7A;
+    cursor: pointer;
+}
+
+
+main{
+    width: 892px;
+    height: 795px;
+    margin: auto;
+    margin-top: 85px;
+    display: flex;
+}
+
+/* left section */
+.rect7{
+    color: #FFFFFF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+
+}
+.rect7 h1{
+    width: 161px;
+    height: 54px;
+    padding: 44px;
+    flex-shrink: 0;
+    font-size: 30px;
+    color: #1D2C3C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#first{
+    margin-top: 24px;
+}
+
+.firstForm, .secondForm{
+    padding: 44px;
+}
+.ybi{
+    display: flex;
+}
+.circle1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #548BC5;
+    text-align: center;
+    color: #548BC5;
+    font-weight: 700;
+}
+.ybi2{
+    width: 256px;
+    height: 32px;
+    color: #1D2C3C;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.form1{
+    display: flex;
+    margin-top: 9px;
+}
+.form2{
+    margin-top: 15px;
+}
+.form1, .form2, .form3 label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: #1D2C3C;
+}
+.form1 input{
+    width: 229px;
+    height: 36px;
+    margin-top: 4px;
+    padding-left: 13px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #EDEFF2;
+}
+
+.form2 input{
+    display: flex;
+    margin-top: 4px;
+    width: 370px;
+    height: 36px;
+    padding-left: 13px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #EDEFF2;
+}
+.form3 input{
+    display: flex;
+    margin-top: 4px;
+    width: 483px;
+    height: 36px;
+    padding-left: 13px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #EDEFF2;
+}
+
+.mainFooter{
+    text-align: center;
+}
+.button{
+    margin-top: 39px;
+}
+.button button{
+    width: 483px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.396px;
+    background-color: #038E7D;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.help{
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+}
+.help p{
+    margin-left: 10px;
+    color: #646E7A;
+    font-size: 14px;
+    letter-spacing: -0.01px;
+}
+.help p span{
+    font-weight: 700;
+    color: #1D2C3C;
+}
+.stripe{
+    margin-top: 34px;
+}
+
+
+/* right section */
+.rect9{
+    width: 312px;
+    padding-left: 46px;
+    padding: 42px;
+    padding-right: 39px;
+    background-color: #1179BF;
+    color: #FFF;
+}
+.freeLancer{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.01px;
+}
+.dols{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.015px;
+    vertical-align: super;
+}
+.yearly{
+    font-size: 60px;
+    font-weight: 300;
+    height: 72px;
+}
+.year{
+    font-size: 18px;
+    font-weight: 700;
+}
+.renew{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 58px;
+    letter-spacing: -0.008px;
+}
+.details{
+    margin-top: 36px;
+}
+.details ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.details ul li{
+    display: flex;
+    gap: 11px;
+}
+.switch{
+    margin-top: 38px;
+    margin-bottom: 42px;
+}
+.quote{
+    margin-top: 43px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.009px;
+}
+.quote span{
+    font-weight: 700;
+}
+.ftp{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+.ftp p{
+    margin-left: 14px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 30px;
+    margin-bottom: 139px;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #636B6F;
+}
+footer p span{
+    color: #31708F;
+}
